@@ -5,5 +5,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input = gets.strip
 input_to_index(user_input)
+input_to_index(user_input)
 
 # Code your CLI Here
