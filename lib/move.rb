@@ -10,11 +10,11 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, value="X")
   #array[index] = value
 end
-move(board, 0)
+move(board, 0, "X")
 
 
 # code your input_to_index and move method here!
