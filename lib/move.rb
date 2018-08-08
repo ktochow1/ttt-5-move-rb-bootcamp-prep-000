@@ -16,6 +16,11 @@ def move(board, index, value="X")
 end
 move(board, 4, "O")
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def move(board, index, value="X")
+  board[0] = "X"
+end
+move(board, 0, "X")
 
 
 # code your input_to_index and move method here!
