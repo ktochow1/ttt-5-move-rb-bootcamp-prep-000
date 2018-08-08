@@ -16,6 +16,7 @@ def move(board, index, value="X")
 end
 move(board, 0, "X")
 
+puts board[4] = "O"
 move(board, 4, "O")
 
 
